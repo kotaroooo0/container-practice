@@ -14,11 +14,3 @@ resource "aws_lb_target_group" "http" {
         unhealthy_threshold = 3
     }
 }
-
-
-
-
-
-
-
-
