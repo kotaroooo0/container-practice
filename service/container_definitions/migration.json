@@ -19,19 +19,19 @@
     "secrets": [
       {
         "name": "DB_HOST",
-        "valueFrom": "/db/host"
+        "valueFrom": "db-host"
       },
       {
         "name": "DB_USER",
-        "valueFrom": "/db/user"
+        "valueFrom": "db-user"
       },
       {
         "name": "DB_PASSWORD",
-        "valueFrom": "/db/password"
+        "valueFrom": "db-password"
       },
       {
         "name": "RACK_ENV",
-        "valueFrom": "/rack/env"
+        "valueFrom": "rack-env"
       }
     ]
   }
